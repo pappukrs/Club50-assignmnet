@@ -16,8 +16,13 @@ const ExpoSecureStoreAdapter = {
 };
 
 // Replace with your Supabase URL and anon key
-const supabaseUrl = 'https://club50.supabase.co';
-const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+const supabaseUrl = 'https://ekncthvqpryufweosqro.supabase.co';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVrbmN0aHZxcHJ5dWZ3ZW9zcXJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUxNzUzNzUsImV4cCI6MjA2MDc1MTM3NX0.cwcdgQK32WUt7-pFOUf6sYUmNLw9Qqe36g0oVRkhfT4';
+
+
+
+// EXPO_PUBLIC_SUPABASE_URL=https://ekncthvqpryufweosqro.supabase.co
+// EXPO_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVrbmN0aHZxcHJ5dWZ3ZW9zcXJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUxNzUzNzUsImV4cCI6MjA2MDc1MTM3NX0.cwcdgQK32WUt7-pFOUf6sYUmNLw9Qqe36g0oVRkhfT4
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   auth: {
